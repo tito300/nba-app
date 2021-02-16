@@ -1,0 +1,31 @@
+Please feel free to leave any notes here on anything you may have done
+differently or anything you might have implemented if you had more time!
+
+------------------------------- NOTES ----------------------------------
+I would first like to say this was an exciting little project. It took me a little more than 4 hours but I was enjoying the work. 
+Below are some observations and things I would have done had I had more time. 
+
+Notes: 
+1 - noticed some dependencies need updating for high risk security vulnerabilities.
+2 - I added styled-normalize package to normalize css styles for cross browser reliable styling
+3 - I added axios, it offers a few conveniences over fetch but is not necessary in our case.
+3 - for this small assessment there was no need to use redux for teams.. but I did anyways assuming in a production app teams will be needed 
+in multiple places.
+4 - I would have used an icon library or cdn such as font awesome, especially to get edit pen icon and search icon.
+5 - I used mobile first approach to build page. However, I only supported 2 break points for this assessment, mobile and LG. in reality, I would support multiple.
+6 - I used "rem" unit for most sizes to allow site wide dynamic styling. But when building isolated sharable components, I might consider using "em"; this way the user can 
+dynamically control display of each component separately. Downside is that em can get confusing and so the team need to be in agreement. 
+
+
+If I had more time I would have:
+1 - added indicator (loading skeletons or at least loading bar/spinner) when loading pages and when saving edits
+2 - implemented a file input component to upload image and display it on edit form. currently it only takes file path.
+3 - would've preferred to use a form library such as Formik combined with a schema validation library like yup for EditPlayers component. But here I 
+implemented my own little form logic for demonstration purposes.
+4 - refactor to use useReducer for EditPlayer component. generally when different useStates start depending on each other, 
+or when there is more than 3 or 4 useStates I prefer to use useReducer.
+5 - install and use redux thunk in order to make favorites functionality available globally since I can imagine it being used in other places..
+6 - used a react GnD library to implement grab and drop functionality.
+7 - would take more time designing the theme of the site including selecting standard fonts and sizes.
+8 - would use a fallback image for broken image links for better display.
+9 - would improve image html/css when name is spanning multiple lines.
