@@ -1,6 +1,6 @@
 # NBA - ReactJS Interview
 
-Welcome to Slingshot's React Interview! Sit back and relax, because this will be fun! 🍿
+Welcome to *** React Interview! Sit back and relax, because this will be fun! 🍿
 
 ## Before Starting
 
